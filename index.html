@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch A Sketch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="controls">
+        <button onclick="resetGrid()">Reset Grid</button>
+        <input type="number" id="grid-size" min="2" max="100" value="16" />
+        <button onclick="changeGridSize()">Change Grid Size</button>
+    </div>
+    <div id="container" class="grid-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
